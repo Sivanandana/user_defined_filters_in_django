@@ -1,0 +1,25 @@
+{% load userfilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>user_defined_filters</h1>
+        <h1>{{data|swap}}</h1>
+        <h1>{{data|remove:'R'}}</h1>
+        <h1>with count space :{{data|count:' '}}</h1>
+        <h1>with out count space :{{data|count:' '}}</h1>
+       <u><h1>{{data|upper}}</h1>
+        <h1>{{krish|upper}}</h1></u>
+
+        <h1>{{data|lower}}</h1>
+
+         
+        
+    </center>
+</body>
+</html>
